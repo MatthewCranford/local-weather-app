@@ -1,0 +1,125 @@
+/* ================= 
+  ELEMENT STYLES 
+====================*/
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eee;
+  color: #161616;
+  padding-top: none;
+
+}
+
+header {
+  text-align: center;
+  background-color: #7769fc;
+  padding: 2rem 0 1rem;
+  margin: 0 0 5rem;
+
+}
+
+footer {
+  text-align: center;
+  margin-top: 0.55rem;
+  font-size: 0.8rem;
+}
+
+  footer>span>a,
+  footer>span>a:hover {
+    color: #161616;
+  }
+
+  footer>span>a:hover {
+    text-decoration: none;
+    filter: brightness(75%);
+  }
+
+  footer>span>a:active {
+    text-decoration: none;
+    filter: brightness(50%);
+  }
+
+
+/* ================= 
+  CLASS STYLES 
+====================*/
+
+
+
+/* ================= 
+  ID STYLES 
+====================*/
+
+#title {
+  font-size: 4.25rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+#sun {
+  color: #eeda2a;
+}
+
+#weather-box {
+  text-align: center;
+  background: #1a1a1a;
+  color: #e9e3e3;
+  border-radius: 10px;
+  width: 90%;
+  padding: 4.5rem 0 ;
+  box-shadow: 5px 5px 5px #0e0d0d;
+
+}
+
+#user-location {
+  font-size: 2rem;
+}
+
+#weather-temp {
+  font-size: 1.5rem;
+}
+
+#weather-degree {
+  font-size: 1.5rem;
+}
+
+#weather-description {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+#weather-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 72px;
+  height: 72px;
+  
+}
+
+/* ================= 
+  MEDIA QUERIES 
+====================*/
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+ 
+ } 
+
