@@ -6,40 +6,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Local Weather App</title>
-  
-  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  
 </head>
 
 <body>
-
+  
   <header class="container">
     <h1 id="title">L<i id="sun" class="fas fa-sun"></i>cal Weather App</h1>
   </header>
   
-    <!-- Weather Box -->
+  <main>
     <div id=frosted-glass class="container">
       <div id="weather-box" class="container">
         <div class="col-sm-12">
           <p id="user-location"></p>       
           <span id="weather-temp"></span>
-          <span id="degree">°<a id="unit" href="#">F</a></span>
+          <span id="degree">°<a id="unit" class="hover-link" href="#">F</a></span>
           <p id="weather-description"></p>
           <i><img id="weather-icon" src=""></i>         
         </div>
       </div>
     </div>
+  </main>
 
-    <footer>
-      <span id="coded-by">
-        Coded by <a id="code-author" href="https://codepen.io/MatthewCranford/" target="_blank">Matthew Cranford</a>
-      </span>
-    </footer>
-    
+  <footer>
+    <span id="coded-by">
+      Coded by <a id="code-author" class="hover-link"  href="https://codepen.io/MatthewCranford/" target="_blank">Matthew Cranford</a>
+    </span>
+  </footer> 
+
 <script src="scripts.js"></script>
 </body>
 </html>
