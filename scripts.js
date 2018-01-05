@@ -32,13 +32,7 @@ $(document).ready(function(){
       userLocation.innerHTML = data.name + ", " + data.sys.country;
       weatherTemp.innerHTML = getFahrenheit(data.main.temp);
       weatherDescription.innerHTML = data.weather[0].main;
-
-      
       weatherIcon.src = data.weather[0].icon;
-      console.log(weatherIcon.src);
-      if(weatherIcon.src === "undefined") {
-        console.log("error");
-      }
     }); 
   }
 
