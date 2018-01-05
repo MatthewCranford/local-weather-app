@@ -18,13 +18,18 @@
     <h1 id="title">L<i id="sun" class="fas fa-sun"></i>cal Weather App</h1>
   </header>
   
+
+  <div id="loader"></div>
+  
   <main>
     <div id=frosted-glass class="container">
-      <div id="weather-box" class="container">
-        <div class="col-sm-12">
+      <div id="weather-box" class="container animate-bottom">   
+        <div class="col-sm-12"> 
           <p id="user-location"></p>       
           <span id="weather-temp"></span>
-          <span id="degree">°<a id="unit" class="hover-link" href="#">F</a></span>
+          <span id="degree">°
+            <a id="unit" class="hover-link" href="#">F</a>
+          </span>
           <p id="weather-description"></p>
           <i><img id="weather-icon" src=""></i>         
         </div>
