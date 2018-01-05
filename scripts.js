@@ -31,8 +31,14 @@ $(document).ready(function(){
 
       userLocation.innerHTML = data.name + ", " + data.sys.country;
       weatherTemp.innerHTML = getFahrenheit(data.main.temp);
-      weatherIcon.src = data.weather[0].icon;
       weatherDescription.innerHTML = data.weather[0].main;
+
+      
+      weatherIcon.src = data.weather[0].icon;
+      console.log(weatherIcon.src);
+      if(weatherIcon.src === "undefined") {
+        console.log("error");
+      }
     }); 
   }
 
@@ -41,7 +47,7 @@ $(document).ready(function(){
       "https://www.dropbox.com/s/j2l7jvk8y5mfohs/clear.jpg?raw=1", // clear sky, id: 800
       "https://www.dropbox.com/s/c82bxoscfvvwawm/clouds.jpg?raw=1", // clouds, id: 801-804
       "https://www.dropbox.com/s/cgsa9vwwj4hcg51/drizzle.jpg?raw=1", // drizzle, id: 300-321
-      "https://www.dropbox.com/s/bjq72yjbaop6230/rain.jpg?raw=1", // rain, id: 500-531
+      "https://www.dropbox.com/s/7bz8jaxrhbkwszf/new-rain.jpg?raw=1", // rain, id: 500-531
       "https://www.dropbox.com/s/24toivyoo7do5x2/storm.jpg?raw=1", // lightning, id: 200-232
       "https://www.dropbox.com/s/u3bwainyw93ibbd/fog.jpg?raw=1", // fog, id: 701-781
       "https://www.dropbox.com/s/n2p2mrwaxwml2u2/snow.jpg?raw=1", // snow id: 600-622
